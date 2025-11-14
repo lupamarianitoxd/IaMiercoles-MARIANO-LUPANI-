@@ -7,7 +7,7 @@
 import streamlit as st
 from groq import Groq
 
-st.set_page_config(page_title="Inteligencia Artificial Mariano Lupani")
+st.set_page_config(page_title="Inteligencia Artificial Mariano Lupani", page_icon= "🚀" )
 st.title("Mi primer chat con MarIAno")
 
 nombre = st.text_input("Cual es tu nombre?")
@@ -105,4 +105,5 @@ if __name__ == "__main__":
 #python -m pip install streamlit
 #pip install groq
 #streamlit run MiChat.py
+
 
